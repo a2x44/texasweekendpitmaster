@@ -6,10 +6,17 @@ body {
 
 }
 
+img {
+    max-width: 100%;
+
+}
+
 .UpperBanner {
+    padding-top: 1rem;
+    height: 50px;
     background: #931F1D;
     display: flex;
-    align-content: center;
+    justify-content: center;
 
     color: #D69191;
     font-family: "Myriad Pro";
@@ -18,7 +25,7 @@ body {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    height: 60px;
+
 }
 
 div {
@@ -27,8 +34,12 @@ div {
 }
 
 nav {
+    background-color: #FFF;
     display: flex;
     justify-content: space-between;
+    padding: 2rem 10rem;
+    position: sticky;
+    top: 0;
 }
 
 ul {
@@ -36,4 +47,64 @@ ul {
     display: flex;
     align-items: flex-end;
     gap: 165px;
+}
+
+.hero {
+    display: flex;
+}
+
+.hero h2 {
+    color: #E65902;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.7px;
+
+}
+
+.hero h1 {
+    width: 662px;
+    height: 150px;
+    flex-direction: column;
+    justify-content: center;
+    color: #000;
+    font-family: Habibi;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.hero img {
+    width: 1948px;
+    height: 679px;
+    border: 11px solid #B84803;
+    background: url(<path-to-image>) lightgray -0.351px -57.766px / 100.036% 164.03% no-repeat;
+}
+
+.Intro h3 {
+    display: -webkit-box;
+    width: 1642px;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 5;
+    flex-shrink: 0;
+    display: -webkit-box;
+    width: 1642px;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 5;
+    flex-shrink: 0;
+}
+
+.Intro p {
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 5;
+    color: #031926;
+    text-overflow: ellipsis;
+    font-family: Habibi;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 38px;
 }
