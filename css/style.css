@@ -1,24 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Habibi&family=Rock+Salt&display=swap');
 
-head div {
-    color: #D69191;
-    text-align: center;
-    font-family: "Myriad Pro";
-    font-size: 32px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-
-}
 body {
     font-family: "Habibi", serif;
     font-style: normal;
 
 }
+
+.UpperBanner {
+    background: #931F1D;
+    display: flex;
+    align-content: center;
+
+    color: #D69191;
+    font-family: "Myriad Pro";
+    text-align: center;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    height: 60px;
+}
+
 div {
     display: flex;
     justify-content: space-between;
 }
+
 nav {
     display: flex;
     justify-content: space-between;
