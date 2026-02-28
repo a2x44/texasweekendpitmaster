@@ -1,4 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Habibi&family=Rock+Salt&display=swap');
 
+head div {
+    color: #D69191;
+    text-align: center;
+    font-family: "Myriad Pro";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+body {
+    font-family: "Habibi", serif;
+    font-style: normal;
+
+}
 div {
     display: flex;
     justify-content: space-between;
@@ -9,6 +25,7 @@ nav {
 }
 
 ul {
+    list-style: none;
     display: flex;
     align-items: flex-end;
     gap: 165px;
