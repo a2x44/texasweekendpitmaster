@@ -33,6 +33,12 @@ div {
     justify-content: space-between;
 }
 
+@media screen and (max-width: 900px) {
+	nav {
+		flex-direction: column;
+		padding: 2rem 1rem;
+	}
+
 nav {
     background-color: #FFF;
     display: flex;
