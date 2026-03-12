@@ -33,7 +33,11 @@ div {
     justify-content: space-between;
 }
 
-@media screen and (max-width: 900px) {}
+@media screen and (max-width: 900px) {
+    h1 {
+        font-size: 30px;
+    }
+}
 
 nav {
     background-color: #FFF;
